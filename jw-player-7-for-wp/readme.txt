@@ -1,10 +1,10 @@
 === JW Player for WordPress ===
 Contributors: ghera74
 Tags: jw player, video player, embed video, video preroll, video subtitles
-Version: 2.3.9
-Stable tag: 2.3.9
+Version: 2.3.10
+Stable tag: 2.3.10
 Requires at least: 5.0
-Tested up to: 6.8.2
+Tested up to: 7.0
 License: GPLv2
 
 **JW Player for WordPress** enables you to publish videos on your WordPress posts and pages using the most popular video player on the web.
@@ -79,6 +79,13 @@ That’s it, you’re ready to go!
 
 
 == Changelog ==
+
+= 2.3.10 =
+Release Date: 13 August 2026
+
+    * Bug Fix: Completa il fix per CVE-2026-39614 nelle callback AJAX di aggiunta/rimozione video
+    * Bug Fix: Aggiorna CVE ID nel changelog 2.3.8
+    * Bug Fix: Corregge vulnerabilità di controllo accessi nelle callback AJAX
 
 = 2.3.9 =
 Release Date: 21 July 2026
